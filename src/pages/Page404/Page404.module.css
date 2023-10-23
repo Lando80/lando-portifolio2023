@@ -18,3 +18,18 @@
 .texto_vermelho {
     font-size: 1.15rem;
 }
+
+@media (max-width: 768px) {
+    .texto_grande {
+        font-size: 150px;
+    }
+    .titulo2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 390px){
+    .titulo2 {
+        font-size: 1rem;
+    }
+}
